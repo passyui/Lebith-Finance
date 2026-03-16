@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#07070C"/>
+  <!-- Subtle gold gradient overlay -->
+  <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+    <stop offset="0%" stop-color="#C4972A" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#07070C" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="512" height="512" rx="96" fill="url(#glow)"/>
+  <!-- Border ring -->
+  <rect x="2" y="2" width="508" height="508" rx="94" fill="none" stroke="#C4972A" stroke-width="3" stroke-opacity="0.35"/>
+  <!-- L lettermark -->
+  <text
+    x="256"
+    y="360"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="320"
+    font-weight="700"
+    text-anchor="middle"
+    fill="none"
+    stroke="url(#gold)"
+    stroke-width="2"
+  >L</text>
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#C4972A"/>
+      <stop offset="55%"  stop-color="#DDB84A"/>
+      <stop offset="100%" stop-color="#F0CF6A"/>
+    </linearGradient>
+  </defs>
+  <text
+    x="256"
+    y="360"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="320"
+    font-weight="700"
+    text-anchor="middle"
+    fill="url(#gold)"
+  >L</text>
+  <!-- Subtle bottom label -->
+  <text
+    x="256"
+    y="460"
+    font-family="Arial, sans-serif"
+    font-size="42"
+    font-weight="400"
+    text-anchor="middle"
+    fill="#C4972A"
+    opacity="0.6"
+    letter-spacing="6"
+  >FINANCE</text>
+</svg>
